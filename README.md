@@ -921,6 +921,20 @@ Multiple layers of validation ensure data integrity:
   - Local network deployment
   - Best practices
 
+### Documentación en Español
+
+- **Documentación Detallada de Contratos**: [`docs/es/CONTRATOS_TRAZABILIDAD_CANNABIS.md`](docs/es/CONTRATOS_TRAZABILIDAD_CANNABIS.md)
+  - Referencia completa de funciones
+  - Ejemplos de uso
+  - Documentación de flujos de trabajo
+  - Consideraciones de seguridad
+
+- **Documentación del Workspace Soroban**: [`docs/es/CONTRATOS_SOROBAN_DOCUMENTACION.md`](docs/es/CONTRATOS_SOROBAN_DOCUMENTACION.md)
+  - Guía de desarrollo
+  - Compilación y pruebas
+  - Despliegue en red local
+  - Mejores prácticas
+
 ### Source Code
 
 - **Seed Registry Contract**: [`contracts/seed-registry/src/`](contracts/seed-registry/src/)
@@ -963,16 +977,4 @@ Multiple layers of validation ensure data integrity:
 - **Stellar Discord**: https://discord.gg/stellar
 - **Stellar Stack Exchange**: https://stellar.stackexchange.com/
 
----
-
-## License
-
-See LICENSE file in repository root.
-
----
-
-**Last Updated**: 2024  
-**Soroban SDK Version**: 23.1.0  
-**Rust Version**: 1.89.0  
-**OpenZeppelin Stellar Contracts**: v0.5.1
 
