@@ -1,0 +1,21 @@
+[workspace]
+members = ["seed-registry", "seed-nft"]
+resolver = "2"
+exclude = ["target"]
+
+[workspace.dependencies]
+soroban-sdk = "23.1.0"
+stellar-access = { git = "https://github.com/OpenZeppelin/stellar-contracts", tag = "v0.5.1", package = "stellar-access" }
+stellar-macros = { git = "https://github.com/OpenZeppelin/stellar-contracts", tag = "v0.5.1", package = "stellar-macros" }
+stellar-tokens = { git = "https://github.com/OpenZeppelin/stellar-contracts", tag = "v0.5.1", package = "stellar-tokens" }
+
+[profile.release]
+opt-level = "z"
+debug = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = "abort"
+overflow-checks = true
+strip = true
+
